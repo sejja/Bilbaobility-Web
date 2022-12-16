@@ -35,7 +35,7 @@ function muestraCalor(){
         mostrar();
           console.log(xhr.responseText);
        }};
-
+    
     xhr.send();
 
 }

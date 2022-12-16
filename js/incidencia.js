@@ -1,22 +1,6 @@
-import { } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js
-
-var admin = require("firebase-admin");
-var serviceAccount = require("path/to/serviceAccountKey.json");
-
-const app = admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://bilbability-default-rtdb.firebaseio.com"
-});
-
-const db = getFirestore(app);
-
 window.initMap = initMap;
 
 function initMap() {
-
-  const citiesCol = collection(db, 'incidencias');
-
-  console.log(citiesCol);
 
     var bilbao = new google.maps.LatLng(43.2630018, -2.9350039);
     var mapOptions = {

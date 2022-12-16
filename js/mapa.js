@@ -1,40 +1,29 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js'
 import { getFirestore, collection, getDocs,
-        doc, setDoc, addDoc, onSnapshot, query, where, 
-        limit } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js'
+    doc, setDoc, addDoc, onSnapshot, query, where, 
+    limit } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js'
 
-const firebaseConfig = {
-    apiKey: "AIzaSyDhbECtGiXEW58aYO3yTMfVvGrCwOah5qE",
-    authDomain: "bilbability.firebaseapp.com",
-    databaseURL: "https://bilbability-default-rtdb.firebaseio.com",
-    projectId: "bilbability",
-    storageBucket: "bilbability.appspot.com",
-    messagingSenderId: "521585765483",
-    appId: "1:521585765483:web:85e0d32db09dd7c8cad52e",
-    measurementId: "G-CLML7K6JPH"
-  };
-
-  const app = initializeApp(firebaseConfig);
-  const db = getFirestore(app);
+    const firebaseConfig = {
+        apiKey: "AIzaSyDhbECtGiXEW58aYO3yTMfVvGrCwOah5qE",
+        authDomain: "bilbability.firebaseapp.com",
+        databaseURL: "https://bilbability-default-rtdb.firebaseio.com",
+        projectId: "bilbability",
+        storageBucket: "bilbability.appspot.com",
+        messagingSenderId: "521585765483",
+        appId: "1:521585765483:web:85e0d32db09dd7c8cad52e",
+        measurementId: "G-CLML7K6JPH"
+      };
+    
+      const app = initializeApp(firebaseConfig);
+      const db = getFirestore(app);
 
 let clustersOrdenados;
-
-async function queryForIncidencias() {
-    const queryIncidencias = query(
-        collection(db, 'incidencias')
-    );
-    
-    onSnapshot(queryIncidencias, (querySnapshot) => {
-        querySnapshot.forEach((snap) => {
-
-        });
-    });
-};
-
 // Initialize and add the map
 function initMap() {
+
     // The location of Uluru
     // The map, centered at Uluru
+
     let map = new google.maps.Map(document.getElementById("map"), {
         zoom: 15,
         center: uluru,
@@ -104,7 +93,6 @@ const uluru = { lat: 43.2630018, lng: -2.9350039 };
 window.initMap = initMap;
 
 function myFunctionClasifica() {
-    openfirebase();
     plotHeatMap();
     longitud = vector.length;
     k = Math.ceil(Math.sqrt(longitud) / 2)
@@ -175,6 +163,7 @@ function mostrarDatosIncidencia() {
             });
         });
     });
+
 
     let xhr = new XMLHttpRequest();
     let ruta = "getIncidencias.php";
