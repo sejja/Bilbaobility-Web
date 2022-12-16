@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "bilbability",
+    "private_key_id": "bc39d9d275fd6c41186283ba276b08a1926c1d4b",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDc70VDfrUi7suF\njUvWT8RMs929SrtjGETbgZnaEXuALJu9ujJiEvPgSfrH/vB4XfiusrA3fQJJfA/e\nmr0QFariwnRJOuIaTPZp5EMo9vBfD9WuZhIkISUot7HoQNFXqtAmqQDC6bld6EMC\noyLqhcQH8GBvaVrO62ytrCTJ6S/nLd076b6J2XBD2H+wfDwFFkKc5Pg149tPkjwh\ndpXVVIO+NGM/NC83ui/9IpSRB3qthX8qtHcIsNnQwNCmYY1Mu2uibf/nlGzvuBOP\nUg1VHVXCLZUjn7mYExgDZZNIp3cOZ9J/dZ33bNgR2etv2Hocdf/AzP+AclqVT7tJ\ngI5EI88dAgMBAAECggEALhT0H/teQa6IIc+SaV2S5qK/ldtwEV+/AP/bvMnXtijX\nxS+Akcc9OeOEXNG2i4yiMaIQskovP2+Sic5BsAis74Y6pgmTnoO+A+E6BuHWyiUt\n3yXoE8QcEY2bHIPkhkIZD29BuuXwJX+r9nFbd4o2FKfVHXfemnktXl4hAEJUnQWn\nP4iqUjW/BjvNXggZd5aIxHRpVDsWtfW6bfoe6fHGUWlRHEKFntJoZWMhIcAzEqOv\n/fPdixR1Tmw9wp4V0vintiw9y2iOOf5u46lVj02FTE7YXa+RI6UJAMwEBrMGpnEe\n84b2WiXFE5xv6AF/B3ciV2AhuDPolC6tuzr5A52NSwKBgQDwm6QiThadhzdRINqz\nnWlQ27IXhCocFIUqJHnFnWI649ypnC29uSWFqliavIHR9s0lQ9hyWh5NMXaSof18\ndJW6cjt3bVUGi/CnJY0tY+ch1qVdj0YGW1GX/sr78DckVqVGTqTSDZuXnljYhvAJ\nEAna5WFsO/ApW/nU4LW2LIfvPwKBgQDrEXIeozsivhMtH0PA1ngnQDxPrDPQ6Ki8\n7pW8yYYNM4gK4tQRVuCQq4yMW+FwI9efypoRfibR0uJf0tI7uuBDwWUlSstNu9DF\nVyiko1Sf0HLwZPrIDKGmkCA1Srqg6pw7hI8G1Ds1qCXZrbrZGd2vXjAQ2aLF/wC/\nCSoNQkUGowKBgGqTNkevuRq7uwfnepgWwIB9X8xE0XYwrK93Cq06wjj9l09Vi3k/\nGlyzkJ2xo/tBy6qW+7fjLQraPwBCWoqXBX9Ze/exaPkGYWlYG8mgN8/oSMVBYi4M\nov6lcHnZ9ELXUkvrJ9yXBHVLQWVfl9Eb1pGsCtQrVHytbeMaScLQxMF3AoGBAIkc\n1Pb/+VdrjV3tdaS+tLkYY9WJOXQqsXn6pIbI+ZMrsre+1ToD9dsM5V9dnKK/lV9U\nWwfHELelDXwdSZmjiHqdDPVyqiF+YukozMEzsAHEIbcM/6a+j2/Lc64CF9gS4Oxq\nhs7R7nN+0A0no+xMhR1skBbUC3j4JCRKISg4tnCHAoGBAJetRhrjTJVniMyFzgpw\nYZ6ny1PV1/e3vWMloMY2rCh6KbrQhSiyaAxVhuau6G8rwQ4VEp9zbDhHoWXnlPmY\nT0NF6sfWCzMSnSW0tn26w5Hx9LqL+qgMreXEtpOM/VUG9iQmk90gV+CmpU6V6uEw\ntFM2WN4akOJrS8PMHgeSrgo3\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-2pptd@bilbability.iam.gserviceaccount.com",
+    "client_id": "104495155682323373122",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-2pptd%40bilbability.iam.gserviceaccount.com"
+  }
+  
