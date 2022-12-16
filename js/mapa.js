@@ -94,12 +94,33 @@ window.initMap = initMap;
 
 function myFunctionClasifica() {
     plotHeatMap();
+
+    const queryIncidencias = query(
+        collection(db, 'incidencias')
+    );
+    
     longitud = vector.length;
     k = Math.ceil(Math.sqrt(longitud) / 2)
     let result = kmeans(vector, k);
     clustersOrdenados = ordenaCluster(result.clusters);
     let mapa = document.getElementById("map2").map2;
     let mapa3 = document.getElementById("map3").map3;
+
+    onSnapshot(queryIncidencias, (querySnapshot) => {
+        querySnapshot.forEach((snap) => {
+            const data = snap.data();
+
+            latitud = data.ubicacion.latitude;
+            longitud = data.ubicacion.longitude;
+            marker = new google.maps.Marker({
+            position: { lat: latitud, lng: longitud },
+            map: mapa,
+            label: `${index + 1}`,
+            zIndex: 9999,
+        });
+        });
+    });
+
     clustersOrdenados.forEach(function callback(currentValue, index, array) {
         latitud = currentValue.centroid[0];
         longitud = currentValue.centroid[1];
