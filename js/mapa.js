@@ -4,14 +4,7 @@ import { getFirestore, collection, getDocs,
     limit } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js'
 
     const firebaseConfig = {
-        apiKey: "AIzaSyDhbECtGiXEW58aYO3yTMfVvGrCwOah5qE",
-        authDomain: "bilbability.firebaseapp.com",
-        databaseURL: "https://bilbability-default-rtdb.firebaseio.com",
-        projectId: "bilbability",
-        storageBucket: "bilbability.appspot.com",
-        messagingSenderId: "521585765483",
-        appId: "1:521585765483:web:85e0d32db09dd7c8cad52e",
-        measurementId: "G-CLML7K6JPH"
+        /*Secret*/
       };
     
       const app = initializeApp(firebaseConfig);
